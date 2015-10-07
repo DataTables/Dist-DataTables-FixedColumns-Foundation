@@ -1,0 +1,37 @@
+{
+    "name": "datatables.net-fixedcolumns-zf",
+    "description": "FixedColumns for DataTables with styling for [Zurb Foundation](http://foundation.zurb.com/)",
+    "main": [
+        "css/fixedColumns.foundation.css"
+    ],
+    "keywords": [
+        "fixed columns",
+        "DataTables",
+        "jQuery",
+        "table",
+        "Foundation"
+    ],
+    "dependencies": {
+        "jquery": ">=1.7",
+        "datatables.net-zf": ">=1.10.9",
+        "datatables.net-fixedcolumns": ">=3.1.0"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
+    "authors": [
+        {
+            "name": "SpryMedia Ltd",
+            "homepage": "https://datatables.net"
+        }
+    ],
+    "homepage": "https://datatables.net",
+    "license": "MIT"
+}
