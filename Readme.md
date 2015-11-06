@@ -19,7 +19,7 @@ npm install datatables.net-fixedcolumns-zf
 
 ```
 var $ = require( 'jquery' );
-require( 'datatables.net-fixedcolumns-zf' )( $ );
+require( 'datatables.net-fixedcolumns-zf' )( window, $ );
 ```
 
 ### bower
