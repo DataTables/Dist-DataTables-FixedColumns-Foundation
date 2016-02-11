@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-fixedcolumns-zf",
-    "version": "3.2.0",
+    "version": "3.2.1",
     "description": "FixedColumns for DataTables with styling for [Zurb Foundation](http://foundation.zurb.com/)",
     "files": [
         "css/fixedColumns.foundation.css"
