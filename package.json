@@ -5,6 +5,7 @@
     "files": [
         "css/fixedColumns.foundation.css"
     ],
+    "style": "css/fixedColumns.foundation.css",
     "keywords": [
         "fixed columns",
         "DataTables",
