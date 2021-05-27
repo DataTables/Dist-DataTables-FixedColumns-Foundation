@@ -1,34 +1,46 @@
 {
     "name": "datatables.net-fixedcolumns-zf",
+    "description": "FixedColumns for DataTables with styling for [Foundation](https://get.foundation/)",
+    "main": "js/fixedColumns.foundation.js",
+    "style": "css/fixedColumns.foundation.css",
     "version": "3.3.2",
-    "description": "FixedColumns for DataTables with styling for [Zurb Foundation](http://foundation.zurb.com/)",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
-    "style": "css/fixedColumns.foundation.css",
     "keywords": [
-        "fixed columns",
-        "DataTables",
+        "FixedColumns",
+        "Foundation",
+        "Datatables",
         "jQuery",
         "table",
-        "Foundation"
+        "filter",
+        "sort"
     ],
-    "homepage": "https://datatables.net",
-    "bugs": "https://datatables.net/forums",
-    "license": "MIT",
+    "dependencies": {
+        "datatables.net-fixedcolumns": ">=3.3.2",
+        "datatables.net-zf": ">=1.10.24",
+        "jquery": ">=1.7"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
     "author": {
         "name": "SpryMedia Ltd",
         "url": "http://datatables.net"
     },
-    "dependencies": {
-        "jquery": ">=1.7",
-        "datatables.net-zf": "^1.10.15",
-        "datatables.net-fixedcolumns": "3.3.2"
-    },
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/DataTables/Dist-DataTables-FixedColumns-Foundation.git"
-    },
-    "main": "js/fixedColumns.foundation.js"
+    }
 }
