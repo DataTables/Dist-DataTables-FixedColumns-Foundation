@@ -1,18 +1,18 @@
-table.dataTable tbody {
+table.dataTable.dtfc-has-left tbody {
   border-left: none;
 }
-table.dataTable th {
+table.dataTable.dtfc-has-left th {
   background-color: #f8f8f8;
 }
-table.dataTable tr.odd td {
+table.dataTable.dtfc-has-left tr.odd td {
   background-color: white;
 }
-table.dataTable thead,
-table.dataTable th:first-child,
-table.dataTable td:first-child {
+table.dataTable.dtfc-has-left thead,
+table.dataTable.dtfc-has-left th:first-child,
+table.dataTable.dtfc-has-left td:first-child {
   border-left: 0px solid #f1f1f1;
 }
-table.dataTable tr.even td {
+table.dataTable.dtfc-has-left tr.even td {
   background-color: #f1f1f1;
 }
 
