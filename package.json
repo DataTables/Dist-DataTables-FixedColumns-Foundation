@@ -4,7 +4,7 @@
     "main": "js/fixedColumns.foundation.js",
     "style": "css/fixedColumns.foundation.css",
     "types": "./types/fixedColumns.foundation.d.ts",
-    "version": "4.0.2",
+    "version": "4.1.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -20,8 +20,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-fixedcolumns": ">=4.0.2",
-        "datatables.net-zf": ">=1.11.5",
+        "datatables.net-fixedcolumns": ">=4.1.0",
+        "datatables.net-zf": ">=1.12.1",
         "jquery": ">=1.7"
     },
     "moduleType": [
