@@ -2,12 +2,14 @@
     "name": "datatables.net-fixedcolumns-zf",
     "description": "FixedColumns for DataTables with styling for [Foundation](https://get.foundation/)",
     "main": "js/fixedColumns.foundation.js",
+    "module": "js/fixedColumns.foundation.mjs",
     "style": "css/fixedColumns.foundation.css",
     "types": "./types/fixedColumns.foundation.d.ts",
     "version": "4.1.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [
