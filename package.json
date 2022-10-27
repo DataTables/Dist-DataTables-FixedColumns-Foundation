@@ -4,7 +4,7 @@
     "main": "js/fixedColumns.foundation.js",
     "module": "js/fixedColumns.foundation.mjs",
     "style": "css/fixedColumns.foundation.css",
-    "types": "./types/fixedColumns.foundation.d.ts",
+    "types": "./types/types.d.ts",
     "version": "4.1.0",
     "files": [
         "css/**/*.css",
