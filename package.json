@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-fixedcolumns-zf",
     "description": "FixedColumns for DataTables with styling for [Foundation](https://get.foundation/)",
-    "main": "js/fixedColumns.foundation.js",
-    "module": "js/fixedColumns.foundation.mjs",
-    "style": "css/fixedColumns.foundation.css",
+    "main": "./js/fixedColumns.foundation.js",
+    "module": "./js/fixedColumns.foundation.mjs",
+    "style": "./css/fixedColumns.foundation.css",
     "types": "./types/fixedColumns.foundation.d.ts",
     "version": "6.0.0",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "FixedColumns",
@@ -34,5 +33,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/FixedColumns.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/fixedColumns.foundation.d.ts",
+            "import": "./js/fixedColumns.foundation.mjs",
+            "default": "./js/fixedColumns.foundation.mjs",
+            "require": "./js/fixedColumns.foundation.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/fixedColumns.foundation.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
