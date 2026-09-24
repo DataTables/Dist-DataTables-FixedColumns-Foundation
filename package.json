@@ -37,9 +37,10 @@
     "exports": {
         ".": {
             "types": "./types/fixedColumns.foundation.d.ts",
+            "style": "./css/fixedColumns.foundation.css",
             "import": "./js/fixedColumns.foundation.mjs",
-            "default": "./js/fixedColumns.foundation.mjs",
-            "require": "./js/fixedColumns.foundation.js"
+            "require": "./js/fixedColumns.foundation.js",
+            "default": "./js/fixedColumns.foundation.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
