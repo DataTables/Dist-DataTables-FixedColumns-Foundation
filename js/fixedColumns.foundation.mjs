@@ -1,4 +1,4 @@
-/*! FixedColumns Foundation styling 6.1.1 for DataTables
+/*! FixedColumns Foundation styling 6.1.2 for DataTables
  * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 
